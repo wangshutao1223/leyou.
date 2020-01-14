@@ -10,4 +10,5 @@ eureka:
     service-url:
       defaultZone: http://127.0.0.1:${server.port}/eureka
   server:
+
     enable-self-preservation: false # 关闭自我保护

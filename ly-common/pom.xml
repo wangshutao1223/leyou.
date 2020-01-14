@@ -9,7 +9,9 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
+    <groupId>com.leyou.service</groupId>
     <artifactId>ly-common</artifactId>
+    <version>${leyou.latest.version}</version>
 
     <dependencies>
         <dependency>
@@ -27,6 +29,10 @@
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-core</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
         </dependency>
     </dependencies>
 </project>
